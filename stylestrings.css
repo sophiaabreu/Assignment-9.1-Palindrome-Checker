@@ -1,0 +1,97 @@
+nav{
+    height: 6000px;
+    width:  200px;
+    float: left;
+    padding: 5px;
+    margin-left: 60px;
+    line-height: 30px;
+    font-size:25px;
+}
+
+body{
+    background-color: rgb(245, 233, 233);
+}
+
+h1{
+    color:rgb(167, 57, 57);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2{
+    color:rgb(167, 57, 57);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+p{
+    color: blueviolet;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+form{
+    color: rgb(135, 24, 14);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 250px;
+    margin-top: 80px;
+}
+
+button{
+    background-color:rgb(150, 40, 172);
+    border: 2px solid rgb(150, 40, 172);
+    color: white;
+    padding: 12px 28px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    align-items: center;
+}
+
+/* Is used to select elements when you mouse over them */
+button:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+div{
+    color: rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+/*this is a custom class to create a semi transparent box*/
+.content{
+    background-color: plum;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(21, 3, 37);
+}
+/*This will center struff*/
+.centered-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+    margin-top: 100px;
+    font-size: 20px;
+}
